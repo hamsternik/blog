@@ -1,3 +1,7 @@
+[submodule "public"]
+	path = public
+	url = git@github.com:hamsternik/hamsterniknotes.github.io.git
+	branch = master
 [submodule "themes/hello-friend"]
 	path = themes/hello-friend
 	url = https://github.com/panr/hugo-theme-hello-friend.git
