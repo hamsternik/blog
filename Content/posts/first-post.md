@@ -2,7 +2,7 @@
 title: The Most Common Mistakes of Every Junior iOS Developer
 date: 2020-12-24 12:00
 tags: iOS, Swift
-excerpt: The first post about the topmost mistackes every junior iOS dev basically done through the career.
+description: The first post about the topmost mistackes every junior iOS dev basically done through the career.
 ---
 # The Most Common Mistakes of Every Junior iOS Developer
 
