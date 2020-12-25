@@ -10,10 +10,14 @@ import Publish
 import Plot
 
 try Blog().publish(
-    withTheme: .foundation
-
     /// TODO: Build my own theme called `basic`.
     /// All code will be located in the `Theme` folder.
     /// Take a look `https://github.com/nitesuit/Blog` source code 🤘
-//    withTheme: .basic
+    withTheme: .foundation,
+//    withTheme: .basic,
+    additionalSteps: [
+        .deploy(
+            using: .gitHub("hamsternik/hamsterniknotes.github.io", branch: "main", useSSH: true)
+        )
+    ]
 )
