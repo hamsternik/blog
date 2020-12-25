@@ -17,7 +17,7 @@ try Blog().publish(
 //    withTheme: .basic,
     additionalSteps: [
         .deploy(
-            using: .gitHub("hamsternik/hamsterniknotes.github.io", branch: "main", useSSH: true)
+            using: .gitHub("hamsternik/hamsterniknotes.github.io", useSSH: true)
         )
     ]
 )
