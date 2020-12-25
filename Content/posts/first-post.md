@@ -1,8 +1,15 @@
 ---
-date: 2020-12-24 19:54
-description: A description of my first post.
-tags: first, article
+title: The Most Common Mistakes of Every Junior iOS Developer
+date: 2020-12-24 12:00
+tags: iOS, Swift
+excerpt: The first post about the topmost mistackes every junior iOS dev basically done through the career.
 ---
-# My first post
+# The Most Common Mistakes of Every Junior iOS Developer
 
-My first post's text.
+### Hard Skills
+- Не делать делегаты как “weak var”
+    - Проблема: создание *reference cycle* для объекта.
+- Используют всего один `Storyboard` для хранения всех экранов
+    - Проблема: сториборд невероятно долго грузится, некомфортно работать.
+- Нарушение принципов SOLID
+    - Проблема: настраивают во view controller внешний вид `UINavigationController`.
