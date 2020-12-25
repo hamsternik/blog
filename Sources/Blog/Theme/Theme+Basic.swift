@@ -11,7 +11,7 @@ extension Theme {
     static var basic: Self {
         Theme(
             htmlFactory: BasicThemeHTMLFactory(),
-            resourcePaths: ["Resources/themes/BasicTheme/all.css"]
+            resourcePaths: ["Resources/themes/basic/all.css"]
         )
     }
 }
