@@ -11,6 +11,5 @@ import Plot
 
 try Blog().publish(
     withTheme: .foundation,
-//    additionalSteps: [.deploy(using: .gitHub("hamsternik/hamsterniknotes.github.io", branch: "main"))]
-    additionalSteps: [.deploy(using: .localhost())]
+    additionalSteps: [.deploy(using: .gitHub("hamsternik/hamsterniknotes.github.io", branch: "main"))]
 )
