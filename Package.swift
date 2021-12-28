@@ -5,18 +5,12 @@ import PackageDescription
 let package = Package(
     name: "Blog",
     products: [
-        .executable(
-            name: "Blog",
-            targets: ["Blog"]
-        )
+        .executable(name: "Blog", targets: ["Blog"])
     ],
     dependencies: [
-        .package(name: "Publish", url: "https://github.com/hamsternik/Publish.git", from: "0.7.1")
+        .package(url: "https://github.com/hamsternik/Publish.git", from: "0.7.1")
     ],
     targets: [
-        .target(
-            name: "Blog",
-            dependencies: ["Publish"]
-        )
+        .target(name: "Blog", dependencies: ["Publish"])
     ]
 )

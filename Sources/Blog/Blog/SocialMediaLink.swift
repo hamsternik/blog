@@ -46,7 +46,7 @@ extension SocialMediaLink {
         )
     }
 
-    static var linkedIn: SocialMediaLink {
+    static var linkedin: SocialMediaLink {
         SocialMediaLink(
             title: "LinkedIn",
             url: "https://linkedin.com/in/khomitsevych",

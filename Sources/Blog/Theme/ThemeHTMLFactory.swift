@@ -12,11 +12,7 @@ struct BasicThemeHTMLFactory<Site: Website>: HTMLFactory {
     func makeIndexHTML(
         for index: Index,
         context: PublishingContext<Site>
-    ) throws -> HTML {
-        HTML(
-            .lang(context.site.language)
-        )
-    }
+    ) throws -> HTML { HTML(.lang(context.site.language)) }
 
     func makeSectionHTML(
         for section: Section<Site>,

@@ -16,12 +16,15 @@ struct Blog: Website {
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
+        var title: String
         var description: String
     }
 
     var url = URL(string: "https://hamsterniknotes.com")!
-    var name = "@hamsternik notes."
-    var description = "Posts and other content for my personal blog."
+    var name = "hamsternik notes"
+    var description = "Content and source code of my website."
     var language: Language { .english }
-    var imagePath: Path? { nil }
+    var imagePath: Path? { "Resources/images/icon-black-blue-bg.png" }
+    var favicon: Favicon? { .init(path: "favicon.ico", type: "image/x-icon") }
+    var socialMediaLinks: [SocialMediaLink] { [.email, .github, .twitter, .instagram, .linkedin] }
 }
