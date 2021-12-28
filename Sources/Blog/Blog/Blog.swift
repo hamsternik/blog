@@ -16,8 +16,6 @@ struct Blog: Website {
     }
 
     struct ItemMetadata: WebsiteItemMetadata {
-        var title: String
-        var description: String
     }
 
     var url = URL(string: "https://hamsterniknotes.com")!
