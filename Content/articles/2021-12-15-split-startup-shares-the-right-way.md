@@ -1,5 +1,5 @@
 ---
-title: Как правильно поделить доли в стартапе. Принцип венчурного общака
+title: 2021-12-15-split-startup-shares-the-right-way
 tags: investment, startups, stocks
 ---
 
